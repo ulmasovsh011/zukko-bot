@@ -190,7 +190,7 @@ async def check_answer(message: types.Message, state: FSMContext):
 
 @dp.message(F.text == "📞 Aloqa")
 async def contact(message: types.Message):
-    await message.answer("🆘 Savollar bo'lsa admin @UlmasovSh011 ga murojaat qiling.")
+    await message.answer("🆘 Savollar bo'lsa admin @UlmasovSh11 ga murojaat qiling.")
 
 async def main():
     await dp.start_polling(bot)
